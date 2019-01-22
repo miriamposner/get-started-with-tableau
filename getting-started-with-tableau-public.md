@@ -1,6 +1,6 @@
 # Getting started with Tableau Public
 
-Tableau is a powerful data visualization tool, in heavy use among both laypeople and data professionals. 
+Tableau is a powerful data visualization tool, in heavy use among both laypeople and data professionals.
 
 Tableau Public is the free version of this tool. There are several things to be aware of with regard to Tableau Public. It's free to download and use, but, aside from screenshots, the only way to share Tableau Public visualizations is to publish them to the Tableau Public website. That means they will be freely available on the web, and you will need to create a Tableau account in order to do this.
 
@@ -8,7 +8,7 @@ However, you do not need to create an account in order to use Tableau Public. We
 
 ## 1. Choose your data source
 
-After opening Tableau, you're presented with a list of file types you can choose to work with ("connect"). Even though our Iowa Arts Council Grants file *opens* in Excel, it's saved as a CSV. To Tableau, a CSV is a text file. So select **Text file. **Then navigate to the file you downloaded earlier and double-click to open it.
+After opening Tableau, you're presented with a list of file types you can choose to work with ("connect"). Even though our Iowa Arts Council Grants file *opens* in Excel, it's saved as a CSV. To Tableau, a CSV is a text file. So select **Text file.** Then navigate to the file you downloaded earlier and double-click to open it.
 
 ![][1]
 
@@ -24,7 +24,7 @@ Tableau will open your file. It should look pretty familiar! In Tableau, you beg
 
 ## 3. Data types in Tableau
 
-Tableau divides your content types (that is, your columns) into **dimensions** and **measures**. Measures consist of numeric information; everything else is a dimension. Tableau will often provide recommendations based on these data types.
+Tableau divides your content types (that is, your columns) into **dimensions** and **measures**. Measures consist of numeric information: values that can be added together. Everything else is a dimension. Tableau will often provide recommendations based on these data types.
 
 ![][3]
 
@@ -32,7 +32,7 @@ Tableau divides your content types (that is, your columns) into **dimensions** a
 
 ## 4. Your first visualization
 
-Get started by clicking on **Applicant Arts Discipline **and drag it into the main section of the sheet (the **canvas**). It's not hugely exciting; you just see a list of arts disciplines.
+Get started by clicking on **Applicant Arts Discipline** and drag it into the main section of the sheet (the **canvas**). It's not hugely exciting; you just see a list of arts disciplines.
 
 There's a reason for that: Tableau doesn't know what you want it to count.
 
@@ -62,7 +62,7 @@ Once you've dropped the "Number of Records" measure, you'll see that they're nic
 
 ## 7. Compare multiple values
 
-You created a visualization! Now, let's see if we can create a stacked bar chart, the way we did with Excel. We'll compare **Application Instition Type** with **Application Arts Discipline**.
+You created a visualization! Now, let's see if we can create a stacked bar chart, the way we did with Excel. We'll show how **Application Instition Type** correlates with **Application Arts Discipline**.
 
 Luckily, this is easy. Just drag the Application Institution Type measure onto the bar chart you've already created.
 
@@ -112,7 +112,7 @@ Now that you've done a map, let's add a measure to it. Drag **Number of Records*
 
 ## 13. Finish your map
 
-Now the circles on your map grow larger as the number of grants awarded to that county increases. You can fine-tune the look of your map by altering the options in the **Marks **window**. **Give your new map a title, as you did for your chart.
+Now the circles on your map grow larger as the number of grants awarded to that county increases. You can fine-tune the look of your map by altering the options in the **Marks window**. Give your new map a title, as you did for your chart.
 
 ![][13]
 
@@ -136,7 +136,7 @@ From the left-hand side of your dashboard's window, click on each of your sheets
 
 ## 16. Options for exporting
 
-As I've mentioned, in order to make your visualization web-accessible, you will need to create a Tableau account and publish to Tableau's site. From there, you can embed your visualizations in other web pages. To begin this process, select **Save to Tableau Public As... **from the **File** menu. You will be prompted to begin the process of creating an account, logging in, and publishing to the web.
+As I've mentioned, in order to make your visualization web-accessible, you will need to create a Tableau account and publish to Tableau's site. From there, you can embed your visualizations in other web pages. To begin this process, select **Save to Tableau Public As...** from the **File** menu. You will be prompted to begin the process of creating an account, logging in, and publishing to the web.
 
 There's a *ton* more you can do with Tableau. You can begin learning about its other features [here](https://public.tableau.com/en-us/s/resources).
 
