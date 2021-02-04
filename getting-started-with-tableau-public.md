@@ -50,7 +50,7 @@ You'll notice a measure called **IAC.csv (Count)**. This measure provides a coun
 
 ![][5]
 
-[5]: images/getting-started-with-tableau-public/tell-tableau-which-measure-to-use.png
+[5]: images/getting-started-with-tableau-public/tell-tableau-which-measure-to-use2.png
 
 ## 6. Choose the chart type you want
 
