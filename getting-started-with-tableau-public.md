@@ -42,11 +42,11 @@ There's a reason for that: Tableau doesn't know what you want it to count.
 
 ## 5. Tell Tableau which measure to use
 
-We want Tableau to create a chart that visualizes the number of grants awarded per arts discipline. As we did when we used Excel to create a Pivot table, we want Tableau to summarize the values.
+We want Tableau to create a chart that visualizes the number of grants awarded per arts discipline. In order to do that, we need Tableau to count up the values for each category.
 
-Luckily, Tableau has done this for us. Scroll to the bottom of the Data column, and look at the measure types that are in italics. You'll see that they contain the word **generated** next to them in parentheses. This means that these are numbers that Tableau has calculated for you.
+Scroll to the bottom of the **Data** column, and look at the measure types that are in italics. You'll see that they contain the word **generated** next to them in parentheses. This means that these are numbers that Tableau has calculated for you.
 
-You'll notice a measure called **Number of Records**. Since each record corresponds to a grant, that's the one we want. Click on this measure and drag it to the table on your canvas. Drop it in the second column of the table, where the values are currently represented as "Abc."
+You'll notice a measure called **IAC.csv (Count)**. This measure provides a count of all grants. Click on this measure and drag it to the table on your canvas. Drop it in the second column of the table, where the values are currently represented as "Abc."
 
 ![][5]
 
